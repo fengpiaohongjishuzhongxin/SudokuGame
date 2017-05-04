@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/mainRelativeLayout1">
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@android:drawable/ic_delete"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			android:id="@+id/miv"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_alignParentBottom="true">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal">
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:inputType="textMultiLine"
+					android:layout_width="match_parent"
+					android:background="@drawable/bg_edittext_selector"
+					android:id="@+id/et"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal">
+
+				<Button
+					android:text="Test1"
+					android:id="@+id/btntest1"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+
+				<Button
+					android:layout_height="wrap_content"
+					android:text="Test2"
+					android:layout_width="wrap_content"
+					android:id="@+id/btntest2"/>
+
+				<Button
+					android:layout_height="wrap_content"
+					android:text="init"
+					android:layout_width="wrap_content"
+					android:id="@+id/btninit"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+
